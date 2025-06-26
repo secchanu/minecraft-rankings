@@ -1,0 +1,5 @@
+# This file ensures the data directory is tracked by git
+# Place your Minecraft server data here:
+# - stats/ (player statistics JSON files)
+# - advancements/ (player advancement JSON files)
+# - whitelist.json (player list)

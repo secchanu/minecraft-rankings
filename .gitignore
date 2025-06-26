@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+out/
+dist/
+build/
+.remotion/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Minecraft server data (exclude actual data but keep directories)
+public/data/*
+!public/data/.gitkeep
+public/images/*
+!public/images/.gitkeep
+
+# Generated data files (these should be regenerated from source)
+# ALL files in src/data/ contain personal information
+src/data/
+
+# Logs
+logs/
+*.log
+
+# OS files
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Minecraft backup files
+*.dat_old
+
+# Package lock files (optional - include if you want reproducible builds)
+# package-lock.json
+# yarn.lock

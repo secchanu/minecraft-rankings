@@ -1,0 +1,30 @@
+{
+  "name": "minecraft-rankings",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "remotion studio --public-dir=public",
+    "build": "remotion render minecraft-rankings out/minecraft-rankings.mp4 --public-dir=public",
+    "update-images": "node scripts/update-images.js",
+    "update-data": "node scripts/extract-stats.js && node scripts/update-images.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@remotion/cli": "^4.0.319",
+    "canvas": "^3.1.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "remotion": "^4.0.319"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}
